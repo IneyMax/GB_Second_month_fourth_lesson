@@ -37,7 +37,7 @@ public:
     // ДЗ 1:
     void pop_front_array();
     void pop_back_array();
-    void print_array();
+    void print_array() const;
     void sort_array();
     void quick_sort_array (int start, int end);
 

@@ -145,7 +145,7 @@ void ArrayInt::pop_back_array()
     remove(m_length - 1);
 }
 
-void ArrayInt::print_array()
+void ArrayInt::print_array() const
 {
     // Выводим все элементы массива
     for (int j = 0; j < m_length; j++)
